@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: grey;
+}
+
+.return {
+    clear: both;
+}
+
+h2, h3 {
+    color: rgb(253, 174, 27);
+    font-weight: bold;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    outline: 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+main {
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    margin-bottom: 15px;
+}
+
+header .picture img{
+    width: 90%;
+    margin: 10px;
+}
+
+header .title {
+    padding-left: 0;
+}
+
+header h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    margin-top: 25px;
+}
+
+header h2 {
+    margin: -20px 0 20px 0;
+    color: rgb(253, 174, 27);
+}
+
+header .download {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    width: 90px;
+    text-align: center;
+    line-height: 20px;
+}
+
+header .download img{
+    width: 80px;
+}
+
+#about {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about a {
+    color: white;
+    text-decoration: none;
+}
+
+#about a:hover {
+    color: rgb(253, 174, 27);
+    text-decoration: underline;
+}
+
+#about img {
+    width: 40px;
+}
+
+#about .contact ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#about .contact img {
+    margin-right: 10px;
+}
+
+#about .line {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .line li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    width: 50px;
+}
+
+#xp h3 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#xp h4 {
+    margin-bottom: 0;
+}
+
+#xp h4 .date {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#xp table {
+    width: 100%;
+}
+
+#xp table tr td {
+    padding: 5px 5px 5px 10px;
+}
+
+#xp img {
+    width: 40px;
+}
+
+.diam {
+    margin-left: -35px;
+    color: rgb(253, 174, 27);
+    font-size: 30px;
+}
+
+.exp ul {
+    width: calc(50% - 5px);
+    float: left;
+}
+
+.exp ul li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.content {
+    border-top: 3px solid rgb(253, 174, 27);
+    border-left: 3px solid rgb(253, 174, 27);
+    padding: 20px 20px 0;
+}
+
+.exp {
+    margin-bottom: 20px;
+}
+
+.vitrine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#trainings {
+    width: 70%;
+}
