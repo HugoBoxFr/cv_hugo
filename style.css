@@ -57,6 +57,7 @@ header .picture img{
 }
 
 header .title {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
