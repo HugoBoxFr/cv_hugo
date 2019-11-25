@@ -87,9 +87,6 @@ header .download img{
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 #about a {
@@ -115,6 +112,10 @@ header .download img{
 
 #about .contact img {
     margin-right: 10px;
+}
+
+.skills, .languages, .soft, .various {
+    margin-top: 50px;
 }
 
 #about .line {
