@@ -48,6 +48,8 @@ header {
 
 header .picture{
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 header .picture img{
@@ -197,4 +199,26 @@ header .download img{
 
 #trainings {
     width: 70%;
+}
+
+@media (max-width: 992px) { 
+    header .download img{
+        width: 40px;
+    }
+
+    header .download {
+        right: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media (max-width: 768px) { 
+    header .download {
+        top: -50px;
+    }
+
+    #xp {
+        margin-top: 30px;
+    }
 }
